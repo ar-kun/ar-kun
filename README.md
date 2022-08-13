@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Kaushan+Script&size=24&pause=1000&color=2C86F7&center=true&vCenter=true&width=435&lines=Hallo%2C+I+Adam+Ramdan;I'm+a+Web+Design+%26+Web+Developer+)](https://git.io/typing-svg)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <!--
