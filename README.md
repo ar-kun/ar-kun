@@ -4,8 +4,9 @@
 </p>
 
  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 <p align="center">
-<a href="https://wakatime.com/@c9f9bd4d-ded2-4cbf-a9e9-2a0f602638c1"><img src="https://wakatime.com/badge/user/c9f9bd4d-ded2-4cbf-a9e9-2a0f602638c1.svg" alt="Total time coded since Aug 14 2022" /></a>
+<a href="https://wakatime.com/badge/github/ar-kun/ar-kun"><img src="https://wakatime.com/badge/github/ar-kun/ar-kun.svg" alt="wakatime"></a>
 <img src="https://komarev.com/ghpvc/?username=ar-kun&label=Profile%20views&color=blue&style=flat" alt="Profile Viewer"/>&nbsp;
 <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ar-kun?style=social">&nbsp;
 <img alt="GitHub followers" src="https://img.shields.io/github/followers/ar-kun?style=social">&nbsp;
