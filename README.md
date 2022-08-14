@@ -1,22 +1,14 @@
+<img src="assets/PortfolioImg.jpg">
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Kaushan+Script&size=28&pause=1000&color=2C86F7&center=true&vCenter=true&width=500&lines=Hello+everyone+I'm+%22Adam+Ramdan%22+%F0%9F%91%A6;I'm+a+Web+Design+%26+Web+Developer+%F0%9F%92%BB" alt="Typing SVG" />
 </p>
 
  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<p align="center">
+<a href="https://wakatime.com/@c9f9bd4d-ded2-4cbf-a9e9-2a0f602638c1"><img src="https://wakatime.com/badge/user/c9f9bd4d-ded2-4cbf-a9e9-2a0f602638c1.svg" alt="Total time coded since Aug 14 2022" /></a>
+<img src="https://komarev.com/ghpvc/?username=ar-kun&label=Profile%20views&color=blue&style=flat" alt="Profile Viewer"/>&nbsp;
+<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ar-kun?style=social">&nbsp;
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/ar-kun?style=social">&nbsp;
+<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ar-kun/ar-kun?style=social">&nbsp;
+</p>
 
-<img src="assets/PortfolioImg.jpg">
-
-<!--
-**ar-kun/ar-kun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
