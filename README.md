@@ -11,5 +11,6 @@
 <img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ar-kun?style=social">&nbsp;
 <a href="https://github.com/ar-kun/"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ar-kun?style=social"></a>&nbsp;
 <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ar-kun/ar-kun?style=social">&nbsp;
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/ar-kun/ar-kun?style=social">
 </p>
 
