@@ -14,7 +14,7 @@
 <a href="https://github.com/ar-kun/ar-kun"><img alt="GitHub forks" src="https://img.shields.io/github/forks/ar-kun/ar-kun?style=social"></a>
 </p>
 
-## Adam Ramdan 
+## Adam Ramdan &nbsp;
 I am a Web Developer and Graphic Designer. I live in Indonesia and I am registered as an Informatics Engineering student at the Muhammadiyah University of Sukabumi in 2020.
 
 ## About Me :
@@ -24,6 +24,8 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
 
 - 😆 I'm interested in Game Development, Web Development, and Machine Learning
 - 📧 Contact me for something on arshinks12@gmail.com
+
+> **"It's not impossible but you can't or don't know how"**
 
 ## Sosial Media
 <p align="center">
@@ -36,3 +38,4 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
 <a href="https://t.me/arshin_12" target="_blank"><img height="30" alt="Telgram" src="https://img.shields.io/twitter/url?label=telegram&logo=telegram&style=social&url=https%3A%2F%2Ft.me%2Farshin_12"></a>
 <a href="https://wa.me/62895365085079" target="_blank"><img height="30" alt="Whatsapp" src="https://img.shields.io/twitter/url?label=whatsapp&logo=whatsapp&style=social&url=https%3A%2F%2Fwa.me%2F"></a>
 </p>
+
