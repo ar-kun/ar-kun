@@ -26,9 +26,9 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
 - 📧 Contact me for something on arshinks12@gmail.com
 
 ## Sosial Media
-<a href="https://www.linkedin.com/in/adamramdan/" target="_blank"><img width="100" alt="Linkedin" src="https://img.shields.io/twitter/url?label=Linkedin&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fadamramdan%2F"></a>
-<a href="https://www.instagram.com/ar.shin_12/" target="_blank"><img width="112" alt="Instagram" src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&style=social&url=https%3A%2F%2Fwww.instagram.com%2Far.shin_12%2F"></a>
-<a href="https://www.facebook.com/adam.ramdan.581/" target="_blank"><img width="110" alt="Facebook" src="https://img.shields.io/twitter/url?label=facebook&logo=facebook&style=social&url=https%3A%2F%2Fwww.facebook.com%2Fadam.ramdan.581%2F"></a>
+<a href="https://www.linkedin.com/in/adamramdan/" target="_blank"><img width="103" alt="Linkedin" src="https://img.shields.io/twitter/url?label=Linkedin&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fadamramdan%2F"></a>
+<a href="https://www.instagram.com/ar.shin_12/" target="_blank"><img width="114" alt="Instagram" src="https://img.shields.io/twitter/url?label=instagram&logo=instagram&style=social&url=https%3A%2F%2Fwww.instagram.com%2Far.shin_12%2F"></a>
+<a href="https://www.facebook.com/adam.ramdan.581/" target="_blank"><img width="113" alt="Facebook" src="https://img.shields.io/twitter/url?label=facebook&logo=facebook&style=social&url=https%3A%2F%2Fwww.facebook.com%2Fadam.ramdan.581%2F"></a>
 <a href="https://discord.com/channels/@shin#6685" target="_blank"><img width="98" alt="Discord" src="https://img.shields.io/twitter/url?label=discord&logo=discord&style=social&url=https%3A%2F%2Fdiscord.com%2Fchannels%2F%40shin%236685"></a>
 <a href="mailto:arshinks12@gmail.com" target="_blank"><img width="85" alt="Gmail" src="https://img.shields.io/twitter/url?label=Gmail&logo=Gmail&style=social&url=https%3A%2F%2Fwww.instagram.com%2Far.shin_12%2F"></a>
 <a href="https://t.me/arshin_12" target="_blank"><img width="110" alt="Telgram" src="https://img.shields.io/twitter/url?label=telegram&logo=telegram&style=social&url=https%3A%2F%2Ft.me%2Farshin_12"></a>
