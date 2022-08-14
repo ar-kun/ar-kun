@@ -7,10 +7,10 @@
 
 <p align="center">
 <a href="https://wakatime.com/badge/github/ar-kun/ar-kun"><img src="https://wakatime.com/badge/github/ar-kun/ar-kun.svg" alt="wakatime"></a>
-<img src="https://komarev.com/ghpvc/?username=ar-kun&label=Profile%20views&color=blue&style=flat" alt="Profile Viewer"/>&nbsp;
-<img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ar-kun?style=social">&nbsp;
+<a href="https://github.com/ar-kun/"><img src="https://komarev.com/ghpvc/?username=ar-kun&label=Profile%20views&color=blue&style=flat" alt="Profile Viewer"/></a>&nbsp;
+<a href="https://github.com/ar-kun/"><img alt="GitHub User's stars" src="https://img.shields.io/github/stars/ar-kun?style=social"></a>&nbsp;
 <a href="https://github.com/ar-kun/"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ar-kun?style=social"></a>&nbsp;
-<img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ar-kun/ar-kun?style=social">&nbsp;
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/ar-kun/ar-kun?style=social">
+<a href="https://github.com/ar-kun/ar-kun"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/ar-kun/ar-kun?style=social"></a>&nbsp;
+<a href="https://github.com/ar-kun/ar-kun"><img alt="GitHub forks" src="https://img.shields.io/github/forks/ar-kun/ar-kun?style=social"></a>
 </p>
 
