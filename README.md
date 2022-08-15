@@ -67,8 +67,8 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
  
  ## Github Stats <img src="https://user-images.githubusercontent.com/76244600/130684889-4425a8ef-53ba-48f3-9433-871976fba0e9.gif" height="45px">
  <div align="center">
- <img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ar-kun&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1117"/>
-<a href="#"><img height="200em" alt="Ar-kun Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ar-kun&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=false&bg_color=0D1117" /></a></p>
+ <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=ar-kun&show_icons=true&theme=react&include_all_commits=true&count_private=true&hide_border=false&bg_color=0D1117"/>
+<a href="#"><img height="180em" alt="Ar-kun Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ar-kun&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=false&bg_color=0D1117" /></a></p>
 </div>
  <div align="center">
 <a href="#"><img  alt="ar-kun streak"  src="https://github-readme-streak-stats.herokuapp.com/?user=ar-kun&theme=black-ice&hide_border=true&stroke=0000&background=0D1117" /> </a></p>
