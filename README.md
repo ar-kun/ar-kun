@@ -74,7 +74,7 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
 <a href="#"><img  alt="ar-kun streak"  src="https://github-readme-streak-stats.herokuapp.com/?user=ar-kun&theme=black-ice&hide_border=true&stroke=0000&background=0D1117" /> </a></p>
 </div>
  <div align="center">
-<a href="#"><img alt="ar-kun Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ar-kun&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true" /></a>
+
 </div>
 
 <div align="center">
