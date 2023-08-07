@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+ @apply text-slate-200 font-primary;
+}
+body {
+ @apply bg-primary bg-[url('./../dist/img/bg-2.jpg')] bg-blend-multiply bg-cover;
+}
+
+.shadowTitle {
+ text-shadow: 0.5px 1px 1px white;
+}
+
+.button {
+ @apply border border-tertiary px-4 py-1 rounded-tl-md rounded-br-md relative z-[1];
+}
+
+.shadowCard {
+ box-shadow: 0 0 7px -1px rgba(5, 177, 211, 1);
+}
+
+.button::before {
+ content: '';
+ @apply absolute top-0 left-0 w-0 h-full bg-tertiary rounded-tl-md rounded-br-md z-[-1] transition-all duration-300 ease-in-out;
+}
+
+.button:hover::before {
+ @apply w-full;
+}
+
+.experienCard {
+ @apply border border-tertiary px-6 py-2 rounded-tl-2xl rounded-br-2xl relative z-[1];
+}
+
+.experienCard::before {
+ content: '';
+ @apply absolute top-0 left-0 w-0 h-full bg-secondary rounded-tl-2xl rounded-br-2xl z-[-1] transition-all duration-300 ease-in-out;
+}
+
+.experienCard:hover::before {
+ @apply w-full;
+}
