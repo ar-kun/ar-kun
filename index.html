@@ -20,9 +20,12 @@
    href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
    rel="stylesheet"
   />
+  <!-- Aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
  </head>
  <body>
-  <header class="lg:container bg-secondary fixed top-0 z-30 w-full backdrop-blur-md shadow-sm shadow-tertiary/50">
+  <!-- <div class="bg-secondary">lorem</div> -->
+  <header class="bg-secondary lg:px-20 fixed top-0 z-30 w-full 2xl:left-0 2xl:right-0 backdrop-blur-md shadow-sm shadow-tertiary/50">
    <nav class="lg:flex justify-between items-center p-5 text-xl">
     <div class="h-12">
      <a href="#home"><img src="./dist/img/logo.png" alt="" class="m-auto lg:m-0 lg:w-full h-full" /></a>
@@ -35,7 +38,7 @@
     </ul>
    </nav>
   </header>
-  <main class="my-24">
+  <main class="my-10">
    <ul
     class="flex fixed w-[80%] m-auto py-3 bg-tertiary/75 lg:hidden justify-center items-center text-3xl gap-10 bottom-5 left-[10%] backdrop-blur-sm rounded-2xl z-20"
    >
@@ -54,64 +57,70 @@
    </ul>
    <section id="home" class="lg:container lg:flex justify-between items-center min-h-screen">
     <div class="p-5 text-center md:text-start lg:p-0">
-     <div class="justify-center flex gap-2 my-2 lg:justify-start">
+     <div data-aos="fade-right" class="justify-center flex gap-2 my-2 lg:justify-start">
       <i class="fa-solid fa-window-minimize"></i>
       <p class="text-slate-500">Hello everyone, it's me</p>
      </div>
-     <h1 class="text-4xl font-black">Adam Ramdan</h1>
-     <h2 class="text-3xl">and I'm a <span class="font-bold text-tertiary shadowTitle">Full-Stack Web Developer</span></h2>
-     <p class="text-lg lg:w-[50%] text-slate-300 text-center lg:text-justify leading-6 my-2">
+     <h1 data-aos="fade-up" data-aos-duration="1500" class="text-4xl font-black">Adam Ramdan</h1>
+     <h2 data-aos="fade-up" data-aos-duration="1500" class="text-3xl">and I'm a <span class="font-bold text-tertiary shadowTitle"></span></h2>
+     <p data-aos="fade-up" data-aos-duration="1500" class="text-lg lg:w-[50%] text-slate-300 text-center lg:text-justify leading-6 my-2">
       I am a full-stack web developer and UI/UX designer with 2+ years of experience. Interested in photography and gaming.
      </p>
-     <div class="flex gap-5 text-2xl my-5 items-center justify-center lg:justify-start">
+     <div data-aos="fade-up" data-aos-duration="1500" class="flex gap-5 text-2xl my-5 items-center justify-center lg:justify-start">
       <a target="_blank" href="https://www.instagram.com/arkun_12/"> <i class="fa-brands fa-instagram hover:text-tertiary"></i></a>
       <a target="_blank" href="mailto:arshinks12@gmail.com"> <i class="fa-regular fa-envelope-open hover:text-tertiary"></i></a>
       <a target="_blank" href="https://github.com/ar-kun"> <i class="fa-brands fa-github hover:text-tertiary"></i></a>
       <a target="_blank" href="https://www.linkedin.com/in/adamramdan/"> <i class="fa-brands fa-linkedin-in hover:text-tertiary"></i></a>
      </div>
     </div>
-    <div class="">
+    <div class="" data-aos="fade-left">
      <img src="./dist/img/hero.png" alt="" />
     </div>
    </section>
-   <section id="about" class="bg-secondary p-5 lg:container py-16">
-    <h2 class="text-center text-4xl font-second mb-5">About Me</h2>
+   <section id="about" class="bg-secondary lg:px-20 2xl:px-64 p-5 py-16">
+    <h2 class="text-center text-4xl font-second mb-5" data-aos="fade-up" data-aos-anchor-placement="top-bottom">About Me</h2>
     <div class="flex flex-wrap gap-24 items-center">
      <div class="w-full lg:w-[50%]">
       <p class="text-justify text-lg [&>span]:block [&>span]:py-2">
-       <span>I live in Indonesia and am enrolled as an Informatics Engineering student at Universitas Muhammadiyah Sukabumi in 2020.</span>
-       <span
+       <span data-aos="fade-right"
+        >I live in Indonesia and am enrolled as an Informatics Engineering student at Universitas Muhammadiyah Sukabumi in 2020.</span
+       >
+       <span data-aos="fade-right"
         >I am a very enthusiastic person with all things programming and always feel challenged to learn and work on projects, whether web-based or
         otherwise.</span
        >
-       <span
+       <span data-aos="fade-right"
         >I am interested in Web Development, Game Development, and Machine Learning. In addition, I have many hobbies, such as photography, design,
         and editing. To relieve fatigue and stress, I often play games or read comics.</span
        >
       </p>
      </div>
      <div class="w-full lg:w-[40%]">
-      <h3 class="text-center text-2xl">Skills Possessed</h3>
+      <h3 data-aos="fade-left" class="text-center text-2xl">Skills Possessed</h3>
       <ul class="flex gap-x-10 gap-y-4 flex-wrap my-5 justify-center lg:justify-start">
-       <li class="button"><a href="">HTML</a></li>
-       <li class="button"><a href="">Css</a></li>
-       <li class="button"><a href="">JavaScript</a></li>
-       <li class="button"><a href="">PHP</a></li>
-       <li class="button"><a href="">Laravel</a></li>
-       <li class="button"><a href="">Tailwind</a></li>
-       <li class="button"><a href="">React JS</a></li>
-       <li class="button"><a href="">Figma</a></li>
-       <li class="button"><a href="">Affinity Design</a></li>
+       <li data-aos="fade-left" class="button"><a href="">HTML</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Css</a></li>
+       <li data-aos="fade-left" class="button"><a href="">JavaScript</a></li>
+       <li data-aos="fade-left" class="button"><a href="">PHP</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Laravel</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Tailwind</a></li>
+       <li data-aos="fade-left" class="button"><a href="">React JS</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Figma</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Affinity Design</a></li>
       </ul>
      </div>
     </div>
    </section>
    <section id="services" class="lg:container pt-16 p-5">
-    <h1 class="text-center [&>span]:block text-3xl [&>span]:text-xl [&>span]:font-second [&>span]:text-slate-400">
+    <h1
+     data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+     class="text-center [&>span]:block text-3xl [&>span]:text-xl [&>span]:font-second [&>span]:text-slate-400"
+    >
      <span>Services</span>Spesialis In
     </h1>
     <div class="flex gap-10 flex-col lg:flex-row items-center justify-between text-center my-10">
-     <div class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
+     <div data-aos="zoom-out-up" class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
       <i class="fa-brands fa-figma text-4xl"></i>
       <h4 class="text-2xl font-bold">UI/UX Design</h4>
       <p class="text-slate-300">
@@ -119,14 +128,14 @@
        business value.
       </p>
      </div>
-     <div class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
+     <div data-aos="zoom-out-up" class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
       <i class="fa-solid fa-code text-4xl"></i>
       <h4 class="text-2xl font-bold">Front-End Development</h4>
       <p class="text-slate-300">
        Develop attractive and responsive websites with the best front-end expertise. Provide a great user experience with awesome designs.
       </p>
      </div>
-     <div class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
+     <div data-aos="zoom-out-up" class="w-full bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard lg:w-1/3">
       <i class="fa-solid fa-server text-4xl"></i>
       <h4 class="text-2xl font-bold">Back-End Development</h4>
       <p class="text-slate-300">
@@ -137,7 +146,7 @@
     </div>
    </section>
    <section id="portfolio" class="p-5 lg:container pt-16 justify-center flex flex-wrap relative text-center">
-    <div class="w-full flex justify-center flex-col items-center mb-8">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="w-full flex justify-center flex-col items-center mb-8">
      <h2 class="lg:w-1/3 text-4xl font-second lg:mb-3">Latest Portofolio</h2>
      <p class="lg:w-1/3 font-light text-slate-300">Explore my latest portfolio, featuring UI/UX Design, front-end, and back-end website projects.</p>
     </div>
@@ -149,6 +158,7 @@
        class="relative w-full overflow-hidden lg:p-2 lg:px-5 whitespace-no-wrap flex flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform]"
       >
        <div
+        data-aos="zoom-out-up"
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
@@ -167,6 +177,7 @@
         </div>
        </div>
        <div
+        data-aos="zoom-out-up"
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
@@ -184,6 +195,7 @@
         </div>
        </div>
        <div
+        data-aos="zoom-out-up"
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
@@ -201,6 +213,7 @@
         </div>
        </div>
        <div
+        data-aos="zoom-out-up"
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
@@ -219,6 +232,7 @@
         </div>
        </div>
        <div
+        data-aos="zoom-out-up"
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
@@ -258,14 +272,14 @@
     </div>
    </section>
    <section id="experiences" class="p-5 lg:container pt-16">
-    <div class="w-full flex justify-center flex-col items-center text-center mb-8">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="w-full flex justify-center flex-col items-center text-center mb-8">
      <h2 class="lg:w-1/3 text-4xl font-second lg:mb-3">Experiences</h2>
      <p class="lg:w-2/5 font-light text-slate-300">
       Discover my career journey covering various projects such as UI/UX Design, front-end, back-end websites and more.
      </p>
     </div>
     <div class="flex gap-10 justify-between items-center flex-wrap">
-     <div class="w-full lg:w-auto flex flex-col gap-5">
+     <div data-aos="fade-up-right" class="w-full lg:w-auto flex flex-col gap-5">
       <div class="experienCard" id="buttonBangkit" onclick="toogleHidden(1)">
        <h4>Bangkit Academy 2023 Batch 1</h4>
        <p>12 February 2023 - 31 July 2023 | <span class="text-tertiary">Apprenticeship</span></p>
@@ -279,7 +293,7 @@
        <p>12 November 2019 - 28 July 2020 | <span class="text-tertiary">Full-Time</span></p>
       </div>
      </div>
-     <div class="w-full lg:w-[55%]">
+     <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
       <div class="hidden" id="bangkit">
        <h5 class="text-xl font-bold">Machine Learning Path</h5>
        <ul class="flex gap-2 my-2">
@@ -374,21 +388,21 @@
     </div>
    </section>
    <section id="contact" class="p-5 lg:container pt-16">
-    <div class="text-center">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="text-center">
      <h1 class="text-4xl font-second mb-1">Contact</h1>
      <p class="text-slate-400">Get in Touch</p>
     </div>
     <div class="flex flex-wrap gap-15 justify-between my-10 items-center">
      <div class="w-full lg:w-[35%]">
-      <p class="my-5 text-center">Contact me for great deals on UI/UX Design, front-end, and back-end websites.</p>
+      <p data-aos="fade-right" class="my-5 text-center">Contact me for great deals on UI/UX Design, front-end, and back-end websites.</p>
       <div class="flex flex-col gap-5 justify-center items-center text-center">
-       <div class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
+       <div data-aos="fade-right" class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
         <i class="fa-brands fa-figma text-4xl"></i>
         <h4 class="text-2xl font-bold">Email Address</h4>
         <p class="text-slate-300">arshinks12@gmail.com</p>
         <a href="" class="text-tertiary/75">Send a message</a>
        </div>
-       <div class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
+       <div data-aos="fade-right" class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
         <i class="fa-brands fa-figma text-4xl"></i>
         <h4 class="text-2xl font-bold">Email Address</h4>
         <p class="text-slate-300">+62895365085079</p>
@@ -397,7 +411,7 @@
       </div>
      </div>
      <div class="w-full lg:w-[55%] mt-10 lg:mt-0">
-      <form class="bg-secondary p-10 rounded-xl">
+      <form data-aos="fade-left" class="bg-secondary p-10 rounded-xl">
        <div class="relative z-0 w-full mb-6 group">
         <input
          type="text"
@@ -453,7 +467,7 @@
    </section>
   </main>
 
-  <footer class="bg-secondary flex p-5 lg:container py-10 justify-between backdrop-blur-md">
+  <footer class="bg-secondary lg:px-20 flex p-5 py-10 justify-between backdrop-blur-md">
    <div class="w-28 hidden lg:block">
     <img src="./dist/img/logo.png" alt="" />
    </div>
@@ -484,76 +498,9 @@
    </div>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.0.2/glide.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-  <script>
-   window.onscroll = function () {
-    const header = document.querySelector('header');
-    const fixedNav = header.offsetTop;
-
-    if (window.pageYOffset > fixedNav) {
-     header.classList.remove('bg-secondary');
-     header.classList.add('bg-secondary/75');
-    } else {
-     header.classList.remove('bg-secondary/75');
-     header.classList.add('bg-secondary');
-    }
-   };
-
-   const glide01 = new Glide('.glide-01', {
-    type: 'slider',
-    perView: 3,
-    breakpoints: {
-     600: {
-      perView: 1,
-     },
-    },
-    animationDuration: 700,
-    gap: 40,
-    classes: {
-     activeNav: '[&>*]:bg-slate-700',
-    },
-   });
-
-   glide01.mount();
-
-   function toogleHidden(clicked) {
-    const buttonBangkit = document.querySelector('#buttonBangkit');
-    const buttonDipepod = document.querySelector('#buttonBangkit');
-    const buttonWaiter = document.querySelector('#buttonBangkit');
-    const Bangkit = document.querySelector('#bangkit');
-    const Dipepod = document.querySelector('#dipepod');
-    const Waiter = document.querySelector('#waiter');
-
-    if (clicked === 1) {
-     buttonBangkit.classList.add('bg-secondary');
-     Bangkit.classList.remove('hidden');
-     Bangkit.classList.add('block');
-     Dipepod.classList.remove('block');
-     Dipepod.classList.add('hidden');
-     Waiter.classList.remove('block');
-     Waiter.classList.add('hidden');
-    } else if (clicked === 2) {
-     buttonDipepod.classList.add('bg-secondary');
-     Dipepod.classList.remove('hidden');
-     Dipepod.classList.add('block');
-     Bangkit.classList.remove('block');
-     Bangkit.classList.add('hidden');
-     Waiter.classList.remove('block');
-     Waiter.classList.add('hidden');
-    } else if (clicked === 3) {
-     buttonWaiter.classList.add('bg-secondary');
-     Waiter.classList.remove('hidden');
-     Waiter.classList.add('block');
-     Bangkit.classList.remove('block');
-     Bangkit.classList.add('hidden');
-     Dipepod.classList.remove('block');
-     Dipepod.classList.add('hidden');
-    }
-   }
-
-   document.addEventListener('DOMContentLoaded', function () {
-    toogleHidden(1); // Panggil fungsi toogleHidden dengan parameter 1 saat halaman dimuat
-   });
-  </script>
+  <script src="./dist/script.js"></script>
  </body>
 </html>
