@@ -12,7 +12,7 @@ window.onscroll = function () {
 };
 
 const glide01 = new Glide('.glide-01', {
- type: 'slider',
+ type: 'carousel',
  perView: 3,
  breakpoints: {
   600: {
