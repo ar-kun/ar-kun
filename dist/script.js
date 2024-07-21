@@ -34,36 +34,45 @@ AOS.init({
 
 function toogleHidden(clicked) {
  const buttonBangkit = document.querySelector('#buttonBangkit');
- const buttonDipepod = document.querySelector('#buttonBangkit');
- const buttonWaiter = document.querySelector('#buttonBangkit');
+ const buttonDipepod = document.querySelector('#buttonDipepod');
+ const buttonGoto = document.querySelector('#buttonGoto');
  const Bangkit = document.querySelector('#bangkit');
  const Dipepod = document.querySelector('#dipepod');
- const Waiter = document.querySelector('#waiter');
+ const Goto = document.querySelector('#goto');
 
  if (clicked === 1) {
-  buttonBangkit.classList.add('bg-secondary');
-  Bangkit.classList.remove('hidden');
-  Bangkit.classList.add('block');
-  Dipepod.classList.remove('block');
-  Dipepod.classList.add('hidden');
-  Waiter.classList.remove('block');
-  Waiter.classList.add('hidden');
- } else if (clicked === 2) {
   buttonDipepod.classList.add('bg-secondary');
   Dipepod.classList.remove('hidden');
   Dipepod.classList.add('block');
   Bangkit.classList.remove('block');
   Bangkit.classList.add('hidden');
-  Waiter.classList.remove('block');
-  Waiter.classList.add('hidden');
+  Goto.classList.remove('block');
+  Goto.classList.add('hidden');
+
+  buttonBangkit.classList.remove('bg-secondary');
+  buttonGoto.classList.remove('bg-secondary');
+ } else if (clicked === 2) {
+  buttonBangkit.classList.add('bg-secondary');
+  Bangkit.classList.remove('hidden');
+  Bangkit.classList.add('block');
+  Dipepod.classList.remove('block');
+  Dipepod.classList.add('hidden');
+  Goto.classList.remove('block');
+  Goto.classList.add('hidden');
+
+  buttonDipepod.classList.remove('bg-secondary');
+  buttonGoto.classList.remove('bg-secondary');
  } else if (clicked === 3) {
-  buttonWaiter.classList.add('bg-secondary');
-  Waiter.classList.remove('hidden');
-  Waiter.classList.add('block');
+  buttonGoto.classList.add('bg-secondary');
+  Goto.classList.remove('hidden');
+  Goto.classList.add('block');
   Bangkit.classList.remove('block');
   Bangkit.classList.add('hidden');
   Dipepod.classList.remove('block');
   Dipepod.classList.add('hidden');
+
+  buttonBangkit.classList.remove('bg-secondary');
+  buttonDipepod.classList.remove('bg-secondary');
  }
 }
 

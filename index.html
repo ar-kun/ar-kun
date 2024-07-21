@@ -334,20 +334,48 @@
     </div>
     <div class="flex gap-10 justify-between items-center flex-wrap">
      <div data-aos="fade-up-right" class="w-full lg:w-auto flex flex-col gap-5">
-      <div class="experienCard" id="buttonBangkit" onclick="toogleHidden(1)">
+      <div class="experienCard" id="buttonDipepod" onclick="toogleHidden(1)">
+       <h4>Full-Stack Web Development</h4>
+       <p>Present | <span class="text-tertiary">Freelancer</span></p>
+      </div>
+      <div class="experienCard" id="buttonBangkit" onclick="toogleHidden(2)">
        <h4>Bangkit Academy 2023 Batch 1</h4>
        <p>12 February 2023 - 31 July 2023 | <span class="text-tertiary">Apprenticeship</span></p>
       </div>
-      <div class="experienCard" onclick="toogleHidden(2)">
-       <h4>Full-Stack Web Development</h4>
-       <p>10 July 2022 - 31 November 2022 | <span class="text-tertiary">Apprenticeship</span></p>
-      </div>
-      <div class="experienCard" onclick="toogleHidden(3)">
-       <h4>Waiter</h4>
-       <p>12 November 2019 - 28 July 2020 | <span class="text-tertiary">Full-Time</span></p>
+
+      <div class="experienCard" id="buttonGoto" onclick="toogleHidden(3)">
+       <h4>GoTo Impact Foundation</h4>
+       <p>12 November 2019 - 28 July 2020 | <span class="text-tertiary">Apprenticeship</span></p>
       </div>
      </div>
      <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
+      <div class="hidden" id="dipepod">
+       <h5 class="text-xl font-bold">Full-Stack Web Development</h5>
+       <ul class="flex gap-2 my-2">
+        <li class="button text-sm self-center"><a href="">Laravel</a></li>
+        <li class="button text-sm self-center"><a href="">Tailwind</a></li>
+        <li class="button text-sm self-center"><a href="">Javascript</a></li>
+        <li class="button text-sm self-center"><a href="">MySQL</a></li>
+        <li class="button text-sm self-center"><a href="">Figma</a></li>
+       </ul>
+       <hr class="my-5" />
+       <div class="flex gap-5">
+        <div class="[&>*]:mb-2 border-l-2 border-white border-dashed px-5">
+         <div class="flex items-start relative">
+          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
+          <p>
+           Web Conference untuk Universitas Muhammadiyah Sukabumi (Laravel & Tailwind) -
+           <a href="icoms.ummi.ac.id">icoms.ummi.ac.id</a>
+          </p>
+         </div>
+
+         <div class="flex items-start relative">
+          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
+          <p>Membuat website untuk Desa Nagrak Selatan (Laravel & Tailwind)</p>
+         </div>
+        </div>
+       </div>
+      </div>
       <div class="hidden" id="bangkit">
        <h5 class="text-xl font-bold">Machine Learning Path</h5>
        <ul class="flex gap-2 my-2">
@@ -376,64 +404,27 @@
         </div>
        </div>
       </div>
-      <div class="hidden" id="dipepod">
-       <h5 class="text-xl font-bold">Full-Stack Web Development</h5>
+      <div class="hidden" id="goto">
+       <h5 class="text-xl font-bold">Generasi Gigih 3.0 - GoTo Impact Foundation</h5>
        <ul class="flex gap-2 my-2">
-        <li class="button text-sm self-center"><a href="">Laravel</a></li>
+        <li class="button text-sm self-center"><a href="">Node JS</a></li>
+        <li class="button text-sm self-center"><a href="">React JS</a></li>
         <li class="button text-sm self-center"><a href="">Tailwind</a></li>
-        <li class="button text-sm self-center"><a href="">Figma</a></li>
        </ul>
        <hr class="my-5" />
        <div class="flex gap-5">
         <div class="[&>*]:mb-2 border-l-2 border-white border-dashed px-5">
          <div class="flex items-start relative">
           <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Design the UI/UX interface using Figma.</p>
+          <p>Mengasah keahlian di dalam lingkungan web dengan menggunakan teknologi MERN.</p>
          </div>
          <div class="flex items-start relative">
           <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Merancang database.</p>
+          <p>Mengerjakan proyek akhir berbasis web dengan teknologi MERN (MongoDB, Express.js, React.js, dan Node.js).</p>
          </div>
          <div class="flex items-start relative">
           <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Create CRUD and Login system.</p>
-         </div>
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Create Front-end view based on Figma UI/UX design.</p>
-         </div>
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Designing Authentication and Authorization.</p>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="hidden" id="waiter">
-       <h5 class="text-xl font-bold">Restaurant waiter</h5>
-       <ul class="flex gap-2 my-2">
-        <li class="button text-sm self-center"><a href="">Greating</a></li>
-        <li class="button text-sm self-center"><a href="">Greeter</a></li>
-        <li class="button text-sm self-center"><a href="">Taking Order</a></li>
-       </ul>
-       <hr class="my-5" />
-       <div class="flex gap-5">
-        <div class="[&>*]:mb-2 border-l-2 border-white border-dashed px-5">
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Record customer orders.</p>
-         </div>
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Deliver the order to the chef.</p>
-         </div>
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Delivering food to customers.</p>
-         </div>
-         <div class="flex items-start relative">
-          <div class="absolute -left-7 w-4 h-4 bg-tertiary rounded-full"></div>
-          <p>Cleaning the dining table and restaurant room.</p>
+          <p>Mengerjakan Capstone Product.</p>
          </div>
         </div>
        </div>
