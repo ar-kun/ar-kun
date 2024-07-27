@@ -105,8 +105,9 @@
        <li data-aos="fade-left" class="button"><a href="">Laravel</a></li>
        <li data-aos="fade-left" class="button"><a href="">Tailwind</a></li>
        <li data-aos="fade-left" class="button"><a href="">React JS</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Vue JS</a></li>
        <li data-aos="fade-left" class="button"><a href="">Figma</a></li>
-       <li data-aos="fade-left" class="button"><a href="">Affinity Design</a></li>
+       <li data-aos="fade-left" class="button"><a href="">Midtrans</a></li>
       </ul>
      </div>
     </div>
@@ -162,6 +163,26 @@
         class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
        >
         <div class="relative h-44 overflow-hidden rounded-md">
+         <li><img src="./dist/img/portofolio/diagnosis.png" class="w-[90%] h-44 m-auto rounded-md bg-cover object-cover" /></li>
+         <div
+          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
+         >
+          <li class="button bg-tertiary/75 text-sm self-center"><a target="_blank" href="https://github.com/ar-kun">Code</a></li>
+          <li class="button text-sm self-center"><a target="_blank" href="https://github.com/ar-kun/Diagnosa">Preview</a></li>
+         </div>
+        </div>
+        <p class="font-bold">Diagnosis Kesehatan</p>
+        <div class="flex gap-2 flex-wrap">
+         <li class="button text-sm self-center"><a>Node JS</a></li>
+         <li class="button text-sm self-center"><a>React JS</a></li>
+         <li class="button text-sm self-center"><a>Tailwind</a></li>
+        </div>
+       </div>
+       <div
+        data-aos="zoom-out-up"
+        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group"
+       >
+        <div class="relative h-44 overflow-hidden rounded-md">
          <li class=""><img src="./dist/img/portofolio/CoCaHouse.jpg" class="w-[90%] m-auto rounded-md bg-cover object-center" /></li>
          <div
           class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
@@ -177,7 +198,7 @@
          </div>
         </div>
         <p class="font-bold">CoCa House Aplication</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>Figma</a></li>
         </div>
        </div>
@@ -195,7 +216,7 @@
          </div>
         </div>
         <p class="font-bold">Design Aplikasi Tanaman</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>Figma</a></li>
         </div>
        </div>
@@ -220,7 +241,7 @@
         </div>
         <p class="font-bold">Heasy - Aplikasi Kesehehatan</p>
         <div class="flex gap-2">
-         <li class="button text-sm self-center"><a>Figma</a></li>
+         <li class="button text-sm self-center flex-wrap"><a>Figma</a></li>
         </div>
        </div>
        <div
@@ -243,7 +264,7 @@
          </div>
         </div>
         <p class="font-bold">Design Overtime Management</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>Figma</a></li>
         </div>
        </div>
@@ -261,7 +282,7 @@
          </div>
         </div>
         <p class="font-bold">Website Desa Nagrak Selatan</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>Laravel</a></li>
          <li class="button text-sm self-center"><a>Tailwind</a></li>
         </div>
@@ -280,7 +301,7 @@
          </div>
         </div>
         <p class="font-bold">Website Video Dengan React</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>React JS</a></li>
          <li class="button text-sm self-center"><a>Tailwind</a></li>
         </div>
@@ -299,7 +320,7 @@
          </div>
         </div>
         <p class="font-bold">Website Coffee Shop</p>
-        <div class="flex gap-2">
+        <div class="flex gap-2 flex-wrap">
          <li class="button text-sm self-center"><a>HTML</a></li>
          <li class="button text-sm self-center"><a>CSS</a></li>
         </div>
@@ -338,20 +359,19 @@
        <h4>Full-Stack Web Development</h4>
        <p>Present | <span class="text-tertiary">Freelancer</span></p>
       </div>
+      <div class="experienCard" id="buttonGoto" onclick="toogleHidden(3)">
+       <h4>GoTo Impact Foundation</h4>
+       <p>Juni 2023 - Desember 2023 | <span class="text-tertiary">Apprenticeship</span></p>
+      </div>
       <div class="experienCard" id="buttonBangkit" onclick="toogleHidden(2)">
        <h4>Bangkit Academy 2023 Batch 1</h4>
        <p>12 February 2023 - 31 July 2023 | <span class="text-tertiary">Apprenticeship</span></p>
-      </div>
-
-      <div class="experienCard" id="buttonGoto" onclick="toogleHidden(3)">
-       <h4>GoTo Impact Foundation</h4>
-       <p>12 November 2019 - 28 July 2020 | <span class="text-tertiary">Apprenticeship</span></p>
       </div>
      </div>
      <div data-aos="fade-up-left" class="w-full lg:w-[55%]">
       <div class="hidden" id="dipepod">
        <h5 class="text-xl font-bold">Full-Stack Web Development</h5>
-       <ul class="flex gap-2 my-2">
+       <ul class="flex gap-2 my-2 flex-wrap">
         <li class="button text-sm self-center"><a href="">Laravel</a></li>
         <li class="button text-sm self-center"><a href="">Tailwind</a></li>
         <li class="button text-sm self-center"><a href="">Javascript</a></li>
@@ -378,7 +398,7 @@
       </div>
       <div class="hidden" id="bangkit">
        <h5 class="text-xl font-bold">Machine Learning Path</h5>
-       <ul class="flex gap-2 my-2">
+       <ul class="flex gap-2 my-2 flex-wrap">
         <li class="button text-sm self-center"><a href="">Tensorflow</a></li>
         <li class="button text-sm self-center"><a href="">Pyhton</a></li>
        </ul>
@@ -406,7 +426,7 @@
       </div>
       <div class="hidden" id="goto">
        <h5 class="text-xl font-bold">Generasi Gigih 3.0 - GoTo Impact Foundation</h5>
-       <ul class="flex gap-2 my-2">
+       <ul class="flex gap-2 my-2 flex-wrap">
         <li class="button text-sm self-center"><a href="">Node JS</a></li>
         <li class="button text-sm self-center"><a href="">React JS</a></li>
         <li class="button text-sm self-center"><a href="">Tailwind</a></li>
@@ -444,14 +464,8 @@
        <div data-aos="fade-right" class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
         <i class="fa-brands fa-figma text-4xl"></i>
         <h4 class="text-2xl font-bold">Email Address</h4>
-        <p class="text-slate-300">arshinks12@gmail.com</p>
-        <a target="_blank" href="mailto:arshinks12@gmail.com" class="text-tertiary/75">Send a message</a>
-       </div>
-       <div data-aos="fade-right" class="bg-secondary/75 p-8 rounded-tl-2xl rounded-br-2xl [&>*]:py-2 backdrop-blur-md shadowCard w-4/5">
-        <i class="fa-brands fa-figma text-4xl"></i>
-        <h4 class="text-2xl font-bold">Email Address</h4>
-        <p class="text-slate-300">+62895365085079</p>
-        <a target="_blank" href="https://wa.me/+62895365085079" class="text-tertiary/75">Send a message</a>
+        <p class="text-slate-300">adamramdan.kun@gmail.com</p>
+        <a target="_blank" href="mailto:adamramdan.kun@gmail.com" class="text-tertiary/75">Send a message</a>
        </div>
       </div>
      </div>
