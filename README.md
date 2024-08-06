@@ -35,7 +35,7 @@ My hobbies are quite a lot, I like photography, design and editing. Besides that
 <a href="https://www.facebook.com/adam.ramdan.581/" target="_blank"><img height="30" alt="Facebook" src="https://img.shields.io/twitter/url?label=facebook&logo=facebook&style=social&url=https%3A%2F%2Fwww.facebook.com%2Fadam.ramdan.581%2F"></a>
 <a href="https://discord.com/channels/@shin#6685" target="_blank"><img height="30" alt="Discord" src="https://img.shields.io/twitter/url?label=discord&logo=discord&style=social&url=https%3A%2F%2Fdiscord.com%2Fchannels%2F%40shin%236685"></a>
 <a href="mailto:adamramdan.kun@gmail.com" target="_blank"><img height="30" alt="Gmail" src="https://img.shields.io/twitter/url?label=Gmail&logo=Gmail&style=social&url=https%3A%2F%2Fwww.instagram.com%2Far.shin_12%2F"></a>
-<a href="https://t.me/arshin_12" target="_blank"><img height="30" alt="Telgram" src="https://img.shields.io/twitter/url?label=telegram&logo=telegram&style=social&url=https%3A%2F%2Ft.me%2Farshin_12"></a>
+<a href="https://t.me/" target="_blank"><img height="30" alt="Telgram" src="https://img.shields.io/twitter/url?label=telegram&logo=telegram&style=social&url=https%3A%2F%2Ft.me%2Farshin_12"></a>
 </p>
 
 ## Tech & Tools
