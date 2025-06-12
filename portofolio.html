@@ -109,84 +109,84 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
   <script src="./dist/script.js"></script>
- </body>
- <script>
-  const projects = [
-    {
-      title: "Diagnosis Kesehatan",
-      image: "./dist/img/portofolio/diagnosis.png",
-      code: "https://github.com/ar-kun",
-      preview: "https://github.com/ar-kun/Diagnosa",
-      tags: ["Node JS", "React JS", "Tailwind"],
-    },
-    {
-      title: "CoCa House Aplication",
-      image: "./dist/img/portofolio/CoCaHouse.jpg",
-      preview: "https://www.figma.com/proto/gDoRnGzn9xBUxT5UfXz1JE/Coffee?node-id=75-357",
-      tags: ["Figma"],
-    },
-    {
-      title: "Design Aplikasi Tanaman",
-      image: "./dist/img/portofolio/tanaman.jpg",
-      preview: "https://www.figma.com/community/file/1216645919648826327",
-      tags: ["Figma"],
-    },
-    {
-      title: "Heasy - Aplikasi Kesehatan",
-      image: "./dist/img/portofolio/heasy.jpg",
-      preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
-      tags: ["Figma"],
-    },
-    {
-      title: "Design Overtime Management",
-      image: "./dist/img/portofolio/management.jpg",
-      preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
-      tags: ["Figma"],
-    },
-    {
-      title: "Website Desa Nagrak Selatan",
-      image: "./dist/img/portofolio/dipepod.png",
-      code: "https://github.com/ar-kun",
-      preview: "https://nagrakselatan.id/",
-      tags: ["Laravel", "Tailwind"],
-    },
-    {
-      title: "Website Video Dengan React",
-      image: "./dist/img/portofolio/Vite-React.png",
-      code: "https://github.com/ar-kun",
-      tags: ["React JS", "Tailwind"],
-    },
-    {
-      title: "Website Coffee Shop",
-      image: "./dist/img/portofolio/coffe.png",
-      code: "https://github.com/ar-kun",
-      preview: "https://ar-kun.github.io/coffee-shop/",
-      tags: ["HTML", "CSS"],
-    },
-  ];
-
-  const container = document.getElementById("portfolio-container");
-
-  projects.forEach(project => {
-    const item = document.createElement("li");
-    item.className = "bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-full sm:w-[90%] md:w-[48%] lg:w-[30%] xl:w-[32%]";
-
-    item.innerHTML = `
-      <div class="relative h-44 overflow-hidden rounded-md w-[90%]">
-        <img src="${project.image}" class="object-cover w-full m-auto bg-cover rounded-md h-44" />
-        <div class="absolute top-0 flex justify-center w-full h-full gap-2 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-primary/75">
-          ${project.code ? `<a target="_blank" href="${project.code}" class="self-center text-sm button bg-tertiary/75">Code</a>` : ''}
-          ${project.preview ? `<a target="_blank" href="${project.preview}" class="self-center text-sm button">Preview</a>` : ''}
+  <script>
+    const projects = [
+      {
+        title: "Diagnosis Kesehatan",
+        image: "./dist/img/portofolio/diagnosis.png",
+        code: "https://github.com/ar-kun",
+        preview: "https://github.com/ar-kun/Diagnosa",
+        tags: ["Node JS", "React JS", "Tailwind"],
+      },
+      {
+        title: "CoCa House Aplication",
+        image: "./dist/img/portofolio/CoCaHouse.jpg",
+        preview: "https://www.figma.com/proto/gDoRnGzn9xBUxT5UfXz1JE/Coffee?node-id=75-357",
+        tags: ["Figma"],
+      },
+      {
+        title: "Design Aplikasi Tanaman",
+        image: "./dist/img/portofolio/tanaman.jpg",
+        preview: "https://www.figma.com/community/file/1216645919648826327",
+        tags: ["Figma"],
+      },
+      {
+        title: "Heasy - Aplikasi Kesehatan",
+        image: "./dist/img/portofolio/heasy.jpg",
+        preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
+        tags: ["Figma"],
+      },
+      {
+        title: "Design Overtime Management",
+        image: "./dist/img/portofolio/management.jpg",
+        preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
+        tags: ["Figma"],
+      },
+      {
+        title: "Website Desa Nagrak Selatan",
+        image: "./dist/img/portofolio/dipepod.png",
+        code: "https://github.com/ar-kun",
+        preview: "https://nagrakselatan.id/",
+        tags: ["Laravel", "Tailwind"],
+      },
+      {
+        title: "Website Video Dengan React",
+        image: "./dist/img/portofolio/Vite-React.png",
+        code: "https://github.com/ar-kun",
+        tags: ["React JS", "Tailwind"],
+      },
+      {
+        title: "Website Coffee Shop",
+        image: "./dist/img/portofolio/coffe.png",
+        code: "https://github.com/ar-kun",
+        preview: "https://ar-kun.github.io/coffee-shop/",
+        tags: ["HTML", "CSS"],
+      },
+    ];
+  
+    const container = document.getElementById("portfolio-container");
+  
+    projects.forEach(project => {
+      const item = document.createElement("li");
+      item.className = "bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-full sm:w-[90%] md:w-[48%] lg:w-[30%] xl:w-[32%]";
+  
+      item.innerHTML = `
+        <div class="relative h-44 overflow-hidden rounded-md w-[90%]">
+          <img src="${project.image}" class="object-cover w-full m-auto bg-cover rounded-md h-44" />
+          <div class="absolute top-0 flex justify-center w-full h-full gap-2 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-primary/75">
+            ${project.code ? `<a target="_blank" href="${project.code}" class="self-center text-sm button bg-tertiary/75">Code</a>` : ''}
+            ${project.preview ? `<a target="_blank" href="${project.preview}" class="self-center text-sm button">Preview</a>` : ''}
+          </div>
         </div>
-      </div>
-      <p class="px-2 font-bold text-center">${project.title}</p>
-      <div class="flex flex-wrap justify-center gap-2">
-        ${project.tags.map(tag => `<span class="self-center text-sm button">${tag}</span>`).join('')}
-      </div>
-    `;
-
-    container.appendChild(item);
-  });
-</script>
+        <p class="px-2 font-bold text-center">${project.title}</p>
+        <div class="flex flex-wrap justify-center gap-2">
+          ${project.tags.map(tag => `<span class="self-center text-sm button">${tag}</span>`).join('')}
+        </div>
+      `;
+  
+      container.appendChild(item);
+    });
+  </script>
+ </body>
 
 </html>
