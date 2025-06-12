@@ -25,10 +25,10 @@
  </head>
  <body>
   <!-- <div class="bg-secondary">lorem</div> -->
-  <header class="bg-secondary lg:px-20 fixed top-0 z-30 w-full 2xl:left-0 2xl:right-0 backdrop-blur-md shadow-sm shadow-tertiary/50">
-   <nav class="lg:flex justify-between items-center p-5 text-xl">
+  <header class="fixed top-0 z-30 w-full shadow-sm bg-secondary lg:px-20 2xl:left-0 2xl:right-0 backdrop-blur-md shadow-tertiary/50">
+   <nav class="items-center justify-between p-5 text-xl lg:flex">
     <div class="h-12">
-     <a href="index.html#home"><img src="./dist/img/logo.png" alt="logo" class="m-auto lg:m-0 lg:w-full h-full" /></a>
+     <a href="index.html#home"><img src="./dist/img/logo.png" alt="logo" class="h-full m-auto lg:m-0 lg:w-full" /></a>
     </div>
     <ul class="hidden lg:flex lg:gap-14">
      <li><a href="index.html#services" class="hover:text-tertiary">Services</a></li>
@@ -56,207 +56,45 @@
     </li>
    </ul>
 
-   <section id="portfolio" class="p-5 lg:container pt-16 justify-center flex flex-wrap relative text-center">
-    <div   class="w-full flex justify-center flex-col items-center mb-8">
-     <h2 class="lg:w-1/3 text-4xl font-second lg:mb-3">Latest Portofolio</h2>
-     <p class="lg:w-1/3 font-light text-slate-300">Explore my latest portfolio, featuring UI/UX Design, front-end, and back-end website projects.</p>
+   <section id="portfolio" class="relative flex flex-wrap justify-center p-5 pt-16 text-center lg:container">
+    <div   class="flex flex-col items-center justify-center w-full mb-8">
+     <h2 class="text-4xl lg:w-1/3 font-second lg:mb-3">Latest Portofolio</h2>
+     <p class="font-light lg:w-1/3 text-slate-300">Explore my latest portfolio, featuring UI/UX Design, front-end, and back-end website projects.</p>
     </div>
 
     <div class="relative w-[90%]">
      <!-- Slides -->
-     <div class="overflow-hidden" >
-      <ul
-       class="relative w-full overflow-hidden lg:p-2 lg:px-5 whitespace-no-wrap flex flex-wrap gap-3 justify-center"
-      >
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/diagnosis.png" class="w-[90%] h-44 m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <li class="button bg-tertiary/75 text-sm self-center"><a target="_blank" href="https://github.com/ar-kun">Code</a></li>
-          <li class="button text-sm self-center"><a target="_blank" href="https://github.com/ar-kun/Diagnosa">Preview</a></li>
-         </div>
-        </div>
-        <p class="font-bold">Diagnosis Kesehatan</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>Node JS</a></li>
-         <li class="button text-sm self-center"><a>React JS</a></li>
-         <li class="button text-sm self-center"><a>Tailwind</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li class=""><img src="./dist/img/portofolio/CoCaHouse.jpg" class="w-[90%] m-auto rounded-md bg-cover object-center" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <!-- <li class="button bg-tertiary/75 text-sm self-center" aria-disabled><a>Code</a></li> -->
-          <li class="button text-sm self-center">
-           <a
-            target="_blank"
-            href="https://www.figma.com/proto/gDoRnGzn9xBUxT5UfXz1JE/Coffee?node-id=75-357&t=8SwvE1CwlGrLbhMu-1&scaling=scale-down&content-scaling=fixed&page-id=75%3A313"
-            >Preview</a
-           >
-          </li>
-         </div>
-        </div>
-        <p class="font-bold">CoCa House Aplication</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>Figma</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li class=""><img src="./dist/img/portofolio/tanaman.jpg" class="w-[90%] m-auto rounded-md bg-cover object-center" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <!-- <li class="button bg-tertiary/75 text-sm self-center" aria-disabled><a>Code</a></li> -->
-          <li class="button text-sm self-center"><a target="_blank" href="https://www.figma.com/community/file/1216645919648826327">Preview</a></li>
-         </div>
-        </div>
-        <p class="font-bold">Design Aplikasi Tanaman</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>Figma</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/heasy.jpg" class="w-[90%] m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <!-- <li class="button bg-tertiary/75 text-sm self-center"><a>Code</a></li> -->
-          <li class="button text-sm self-center">
-           <a
-            target="_blank"
-            href="https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2&starting-point-node-id=2%3A2&mode=design&t=h6GBl2Xj6Q90YUyo-1"
-            >Preview</a
-           >
-          </li>
-         </div>
-        </div>
-        <p class="font-bold">Heasy - Aplikasi Kesehehatan</p>
-        <div class="flex gap-2">
-         <li class="button text-sm self-center flex-wrap"><a>Figma</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/management.jpg" class="w-[90%] m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <!-- <li class="button bg-tertiary/75 text-sm self-center"><a>Code</a></li> -->
-          <li class="button text-sm self-center">
-           <a
-            target="_blank"
-            href="https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2&starting-point-node-id=2%3A2&mode=design&t=h6GBl2Xj6Q90YUyo-1"
-            >Preview</a
-           >
-          </li>
-         </div>
-        </div>
-        <p class="font-bold">Design Overtime Management</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>Figma</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/dipepod.png" class="w-[90%] h-44 m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <li class="button bg-tertiary/75 text-sm self-center"><a target="_blank" href="https://github.com/ar-kun">Code</a></li>
-          <li class="button text-sm self-center"><a target="_blank" href="https://nagrakselatan.id/">Preview</a></li>
-         </div>
-        </div>
-        <p class="font-bold">Website Desa Nagrak Selatan</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>Laravel</a></li>
-         <li class="button text-sm self-center"><a>Tailwind</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/Vite-React.png" class="w-[90%] h-44 m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <li class="button bg-tertiary/75 text-sm self-center"><a target="_blank" href="https://github.com/ar-kun">Code</a></li>
-          <li class="button text-sm self-center"><a>Preview</a></li>
-         </div>
-        </div>
-        <p class="font-bold">Website Video Dengan React</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>React JS</a></li>
-         <li class="button text-sm self-center"><a>Tailwind</a></li>
-        </div>
-       </div>
-       <div
-        class="bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-[30%]"
-       >
-        <div class="relative h-44 overflow-hidden rounded-md">
-         <li><img src="./dist/img/portofolio/coffe.png" class="w-[90%] h-44 m-auto rounded-md bg-cover object-cover" /></li>
-         <div
-          class="opacity-0 flex group-hover:opacity-100 transition-all duration-300 gap-2 absolute top-0 w-[90%] bg-primary/75 justify-center left-[1.1rem] h-full"
-         >
-          <li class="button bg-tertiary/75 text-sm self-center"><a target="_blank" href="https://github.com/ar-kun">Code</a></li>
-          <li class="button text-sm self-center"><a target="_blank" href="https://ar-kun.github.io/coffee-shop/">Preview</a></li>
-         </div>
-        </div>
-        <p class="font-bold">Website Coffee Shop</p>
-        <div class="flex gap-2 flex-wrap">
-         <li class="button text-sm self-center"><a>HTML</a></li>
-         <li class="button text-sm self-center"><a>CSS</a></li>
-        </div>
-       </div>
-      </ul>
-     </div>
+     <div class="max-w-screen-xl mx-auto overflow-hidden">
+      <ul id="portfolio-container" class="flex flex-wrap justify-center gap-4 py-5"></ul>
+    </div>
    </section>
   </main>
 
-  <footer class="bg-secondary lg:px-20 flex p-5 py-10 justify-between backdrop-blur-md">
-   <div class="w-28 hidden lg:block">
+  <footer class="flex justify-between p-5 py-10 bg-secondary lg:px-20 backdrop-blur-md">
+   <div class="hidden w-28 lg:block">
     <img src="./dist/img/logo.png" alt="Logo" />
    </div>
    <div>
-    <div class="flex gap-2 mb-2 justify-center lg:justify-end">
+    <div class="flex justify-center gap-2 mb-2 lg:justify-end">
      <div
-      class="w-10 h-10 rounded-full border border-tertiary flex items-center justify-center text-2xl hover:bg-tertiary transition-all duration-300"
+      class="flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 border rounded-full border-tertiary hover:bg-tertiary"
      >
       <a target="_blank" href="https://www.instagram.com/arkun_12/"> <i class="fa-brands fa-instagram"></i></a>
      </div>
      <div
-      class="w-10 h-10 rounded-full border border-tertiary flex items-center justify-center text-2xl hover:bg-tertiary transition-all duration-300"
+      class="flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 border rounded-full border-tertiary hover:bg-tertiary"
      >
       <a target="_blank" href="mailto:arshinks12@gmail.com"> <i class="fa-regular fa-envelope-open"></i></a>
      </div>
      <div
-      class="w-10 h-10 rounded-full border border-tertiary flex items-center justify-center text-2xl hover:bg-tertiary transition-all duration-300"
+      class="flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 border rounded-full border-tertiary hover:bg-tertiary"
      >
       <a target="_blank" href="https://github.com/ar-kun">
        <i class="fa-brands fa-github"></i>
       </a>
      </div>
      <div
-      class="w-10 h-10 rounded-full border border-tertiary flex items-center justify-center text-2xl hover:bg-tertiary transition-all duration-300"
+      class="flex items-center justify-center w-10 h-10 text-2xl transition-all duration-300 border rounded-full border-tertiary hover:bg-tertiary"
      >
       <a target="_blank" href="https://www.linkedin.com/in/adamramdan/">
        <i class="fa-brands fa-linkedin-in"></i>
@@ -272,4 +110,83 @@
 
   <script src="./dist/script.js"></script>
  </body>
+ <script>
+  const projects = [
+    {
+      title: "Diagnosis Kesehatan",
+      image: "./dist/img/portofolio/diagnosis.png",
+      code: "https://github.com/ar-kun",
+      preview: "https://github.com/ar-kun/Diagnosa",
+      tags: ["Node JS", "React JS", "Tailwind"],
+    },
+    {
+      title: "CoCa House Aplication",
+      image: "./dist/img/portofolio/CoCaHouse.jpg",
+      preview: "https://www.figma.com/proto/gDoRnGzn9xBUxT5UfXz1JE/Coffee?node-id=75-357",
+      tags: ["Figma"],
+    },
+    {
+      title: "Design Aplikasi Tanaman",
+      image: "./dist/img/portofolio/tanaman.jpg",
+      preview: "https://www.figma.com/community/file/1216645919648826327",
+      tags: ["Figma"],
+    },
+    {
+      title: "Heasy - Aplikasi Kesehatan",
+      image: "./dist/img/portofolio/heasy.jpg",
+      preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
+      tags: ["Figma"],
+    },
+    {
+      title: "Design Overtime Management",
+      image: "./dist/img/portofolio/management.jpg",
+      preview: "https://www.figma.com/proto/Z3AVmitxfuIY7iXUNfjb3y/Gemastik?node-id=2-2",
+      tags: ["Figma"],
+    },
+    {
+      title: "Website Desa Nagrak Selatan",
+      image: "./dist/img/portofolio/dipepod.png",
+      code: "https://github.com/ar-kun",
+      preview: "https://nagrakselatan.id/",
+      tags: ["Laravel", "Tailwind"],
+    },
+    {
+      title: "Website Video Dengan React",
+      image: "./dist/img/portofolio/Vite-React.png",
+      code: "https://github.com/ar-kun",
+      tags: ["React JS", "Tailwind"],
+    },
+    {
+      title: "Website Coffee Shop",
+      image: "./dist/img/portofolio/coffe.png",
+      code: "https://github.com/ar-kun",
+      preview: "https://ar-kun.github.io/coffee-shop/",
+      tags: ["HTML", "CSS"],
+    },
+  ];
+
+  const container = document.getElementById("portfolio-container");
+
+  projects.forEach(project => {
+    const item = document.createElement("li");
+    item.className = "bg-secondary backdrop-blur-md py-5 shadowCard flex flex-col justify-center items-center gap-5 rounded-tl-2xl rounded-br-2xl relative group w-full sm:w-[90%] md:w-[48%] lg:w-[30%] xl:w-[32%]";
+
+    item.innerHTML = `
+      <div class="relative h-44 overflow-hidden rounded-md w-[90%]">
+        <img src="${project.image}" class="object-cover w-full m-auto bg-cover rounded-md h-44" />
+        <div class="absolute top-0 flex justify-center w-full h-full gap-2 transition-all duration-300 opacity-0 group-hover:opacity-100 bg-primary/75">
+          ${project.code ? `<a target="_blank" href="${project.code}" class="self-center text-sm button bg-tertiary/75">Code</a>` : ''}
+          ${project.preview ? `<a target="_blank" href="${project.preview}" class="self-center text-sm button">Preview</a>` : ''}
+        </div>
+      </div>
+      <p class="px-2 font-bold text-center">${project.title}</p>
+      <div class="flex flex-wrap justify-center gap-2">
+        ${project.tags.map(tag => `<span class="self-center text-sm button">${tag}</span>`).join('')}
+      </div>
+    `;
+
+    container.appendChild(item);
+  });
+</script>
+
 </html>
