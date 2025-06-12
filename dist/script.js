@@ -33,72 +33,22 @@ AOS.init({
 });
 
 function toogleHidden(clicked) {
- const buttonUmmi = document.querySelector('#buttonUmmi');
- const buttonBangkit = document.querySelector('#buttonBangkit');
- const buttonDipepod = document.querySelector('#buttonDipepod');
- const buttonGoto = document.querySelector('#buttonGoto');
- const UMMI = document.querySelector('#ummi');
- const Bangkit = document.querySelector('#bangkit');
- const Dipepod = document.querySelector('#dipepod');
- const Goto = document.querySelector('#goto');
+ const sections = [
+  { id: 'dipepod', button: 'buttonDipepod' },
+  { id: 'bangkit', button: 'buttonBangkit' },
+  { id: 'goto', button: 'buttonGoto' },
+  { id: 'ummi', button: 'buttonUmmi' },
+ ];
 
- if (clicked === 1) {
-  buttonDipepod.classList.add('bg-secondary');
-  Dipepod.classList.remove('hidden');
-  Dipepod.classList.add('block');
-  Bangkit.classList.remove('block');
-  Bangkit.classList.add('hidden');
-  Goto.classList.remove('block');
-  Goto.classList.add('hidden');
-  UMMI.classList.remove('block');
-  UMMI.classList.add('hidden');
+ sections.forEach((section, index) => {
+  const content = document.querySelector(`#${section.id}`);
+  const button = document.querySelector(`#${section.button}`);
+  const isActive = clicked === index + 1;
 
-  buttonBangkit.classList.remove('bg-secondary');
-  buttonGoto.classList.remove('bg-secondary');
-  buttonUmmi.classList.remove('bg-secondary');
- } else if (clicked === 2) {
-  buttonBangkit.classList.add('bg-secondary');
-  Bangkit.classList.remove('hidden');
-  Bangkit.classList.add('block');
-  Dipepod.classList.remove('block');
-  Dipepod.classList.add('hidden');
-  Goto.classList.remove('block');
-  Goto.classList.add('hidden');
-  UMMI.classList.remove('block');
-  UMMI.classList.add('hidden');
-
-  buttonDipepod.classList.remove('bg-secondary');
-  buttonGoto.classList.remove('bg-secondary');
-  buttonUmmi.classList.remove('bg-secondary');
- } else if (clicked === 3) {
-  buttonGoto.classList.add('bg-secondary');
-  Goto.classList.remove('hidden');
-  Goto.classList.add('block');
-  Bangkit.classList.remove('block');
-  Bangkit.classList.add('hidden');
-  Dipepod.classList.remove('block');
-  Dipepod.classList.add('hidden');
-  UMMI.classList.remove('block');
-  UMMI.classList.add('hidden');
-
-  buttonBangkit.classList.remove('bg-secondary');
-  buttonDipepod.classList.remove('bg-secondary');
-  buttonUmmi.classList.remove('bg-secondary');
- } else if (clicked === 4) {
-  buttonUmmi.classList.add('bg-secondary');
-  UMMI.classList.remove('hidden');
-  UMMI.classList.add('block');
-  Bangkit.classList.remove('block');
-  Bangkit.classList.add('hidden');
-  Dipepod.classList.remove('block');
-  Dipepod.classList.add('hidden');
-  Goto.classList.remove('block');
-  Goto.classList.add('hidden');
-
-  buttonBangkit.classList.remove('bg-secondary');
-  buttonDipepod.classList.remove('bg-secondary');
-  buttonGoto.classList.remove('bg-secondary');
- }
+  content.classList.toggle('block', isActive);
+  content.classList.toggle('hidden', !isActive);
+  button.classList.toggle('bg-secondary', isActive);
+ });
 }
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -118,8 +68,8 @@ const form = document.getElementById('my-form');
 
 async function handleSubmit(event) {
  event.preventDefault();
- var status = document.getElementById('my-form-status');
- var data = new FormData(event.target);
+ let status = document.getElementById('my-form-status');
+ let data = new FormData(event.target);
  fetch(event.target.action, {
   method: form.method,
   body: data,
