@@ -33,9 +33,11 @@ AOS.init({
 });
 
 function toogleHidden(clicked) {
+ const buttonUmmi = document.querySelector('#buttonUmmi');
  const buttonBangkit = document.querySelector('#buttonBangkit');
  const buttonDipepod = document.querySelector('#buttonDipepod');
  const buttonGoto = document.querySelector('#buttonGoto');
+ const UMMI = document.querySelector('#ummi');
  const Bangkit = document.querySelector('#bangkit');
  const Dipepod = document.querySelector('#dipepod');
  const Goto = document.querySelector('#goto');
@@ -48,9 +50,12 @@ function toogleHidden(clicked) {
   Bangkit.classList.add('hidden');
   Goto.classList.remove('block');
   Goto.classList.add('hidden');
+  UMMI.classList.remove('block');
+  UMMI.classList.add('hidden');
 
   buttonBangkit.classList.remove('bg-secondary');
   buttonGoto.classList.remove('bg-secondary');
+  buttonUmmi.classList.remove('bg-secondary');
  } else if (clicked === 2) {
   buttonBangkit.classList.add('bg-secondary');
   Bangkit.classList.remove('hidden');
@@ -59,9 +64,12 @@ function toogleHidden(clicked) {
   Dipepod.classList.add('hidden');
   Goto.classList.remove('block');
   Goto.classList.add('hidden');
+  UMMI.classList.remove('block');
+  UMMI.classList.add('hidden');
 
   buttonDipepod.classList.remove('bg-secondary');
   buttonGoto.classList.remove('bg-secondary');
+  buttonUmmi.classList.remove('bg-secondary');
  } else if (clicked === 3) {
   buttonGoto.classList.add('bg-secondary');
   Goto.classList.remove('hidden');
@@ -70,14 +78,31 @@ function toogleHidden(clicked) {
   Bangkit.classList.add('hidden');
   Dipepod.classList.remove('block');
   Dipepod.classList.add('hidden');
+  UMMI.classList.remove('block');
+  UMMI.classList.add('hidden');
 
   buttonBangkit.classList.remove('bg-secondary');
   buttonDipepod.classList.remove('bg-secondary');
+  buttonUmmi.classList.remove('bg-secondary');
+ } else if (clicked === 4) {
+  buttonUmmi.classList.add('bg-secondary');
+  UMMI.classList.remove('hidden');
+  UMMI.classList.add('block');
+  Bangkit.classList.remove('block');
+  Bangkit.classList.add('hidden');
+  Dipepod.classList.remove('block');
+  Dipepod.classList.add('hidden');
+  Goto.classList.remove('block');
+  Goto.classList.add('hidden');
+
+  buttonBangkit.classList.remove('bg-secondary');
+  buttonDipepod.classList.remove('bg-secondary');
+  buttonGoto.classList.remove('bg-secondary');
  }
 }
 
 document.addEventListener('DOMContentLoaded', function () {
- toogleHidden(1); // Panggil fungsi toogleHidden dengan parameter 1 saat halaman dimuat
+ toogleHidden(4); // Panggil fungsi toogleHidden dengan parameter 1 saat halaman dimuat
 });
 
 const typed = new Typed('.shadowTitle', {
